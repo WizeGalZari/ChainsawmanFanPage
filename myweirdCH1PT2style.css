@@ -1,0 +1,21 @@
+html {
+    background-image:url(images/bgLight.png);
+    background-size:1200px;
+}
+
+.box {
+    max-width:1000px;
+    margin: 10px auto;
+
+    display: grid;
+    /* grid-template-columns:1000 00; */
+    /* grid-template-rows:auto 500px; */
+    grid-gap:10px;
+}
+
+pages{
+    place-items:center;
+    border: rgb(0, 0, 0) 4px solid;
+    border:0;
+}
+
