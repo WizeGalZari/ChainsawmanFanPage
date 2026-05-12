@@ -45,6 +45,8 @@ slot1 {
 }
 
 slot2 {
+    background-image: url('images/thumbnails/theHouseThumb.png');
+    background-size: cover;
     /* background-color: rgba(41, 41, 41, 0.589); */
     /* font-size:30px; */
 
