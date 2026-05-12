@@ -1,6 +1,6 @@
 html {
     background-image:url(images/bg2.png);
-    background-size:1000px;
+    background-size:500px;
 }
 
 .box {
@@ -14,7 +14,7 @@ html {
 }
 
 header, main, illusbox, comicbox, musicbox, footer, a {
-    border: rgb(0, 255, 17) 4px solid;
+    border: rgb(0, 0, 0) 4px solid;
 }
 
 header {
@@ -57,6 +57,8 @@ illusbox {
 }
 
 a {
+    background-image: url('images/thumbnails/myWeirdSeriesThumb.png');
+
     background-color: rgba(41, 41, 41, 0.589);
     font-size:30px;
     padding-top:200px;
@@ -68,6 +70,7 @@ a {
 }
 
 comicbox {
+    
     
     border:0;
 

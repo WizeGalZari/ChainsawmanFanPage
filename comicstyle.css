@@ -73,6 +73,9 @@ slot3 {
 }
 
 a {
+    /* background-image: url('images/thumbnails/myWeirdSeriesThumb.png');
+    background-size: cover; */
+
     background-color: rgba(41, 41, 41, 0.589);
     font-size:20px;
     padding-top:200px;
