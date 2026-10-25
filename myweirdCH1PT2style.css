@@ -17,5 +17,6 @@ pages{
     place-items:center;
     border: rgb(0, 0, 0) 4px solid;
     border:0;
+    /* height: 700px; */
 }
 

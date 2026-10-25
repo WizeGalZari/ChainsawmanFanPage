@@ -1,0 +1,75 @@
+html {
+    background-image:url(images/bg2_Halloween.png);
+    background-size:1000px;
+}
+
+.box {
+    max-width:1000px;
+    margin: 50px auto;
+
+    display: grid;
+    /* grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto 500px; */
+}
+
+vidTitle, vidDate, vidDesc, vid {
+    border: rgba(249, 249, 249, 0.265) 4px solid;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+vid {
+    padding-left: 100px;
+    
+    grid-row:1 / 2;
+    grid-column: 1 / 3;
+}
+
+video {
+    width: 800px;
+    height: 800px;
+
+    
+}
+
+vidTitle {
+    grid-row:2 / 3;
+    grid-column: 1 / 2; 
+    
+    height: 100px;
+
+    text-align: left;
+
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+vidDate {
+    grid-row:3 / 4;
+    grid-column: 1 / 2;
+    
+
+    
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+vidDesc {
+    grid-row:2 / 3;
+    grid-column: 2 / 3;
+    
+    padding-top: 40px;
+
+    text-align: right;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* footer {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+
+    color: whitesmoke;
+} */
+

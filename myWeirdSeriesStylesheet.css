@@ -1,6 +1,6 @@
 html {
-    background-image:url(images/bg2.png);
-    background-size:1300px;
+    background-image:url(images/bgMW_Halloween.png);
+    background-size:900px;
 }
 
 .box {
@@ -34,7 +34,7 @@ header {
 
     text-align:center;
 
-    background-color: rgba(41, 41, 41, 0.589);
+    background-color: rgba(70, 121, 54, 0.566);
 
 
     color:whitesmoke;
@@ -50,7 +50,7 @@ desc {
     grid-row: 1 / 2;
     grid-column:2 / 3;
 
-    background-color: rgba(41, 41, 41, 0.589);
+    background-color: rgba(70, 121, 54, 0.566);
 
     border: 0;
 
@@ -61,7 +61,7 @@ desc {
 
 chList {
 
-    background-color: rgba(41, 41, 41, 0.589);
+    background-color: rgba(70, 121, 54, 0.566);
 
     grid-row: 3 / 4;
     grid-column:1 / 3;

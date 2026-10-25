@@ -2,26 +2,45 @@
 
 <html>
     <head>
+
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        
         <title>Webcomics</title>
 
-        <link rel="stylesheet" href="comicstyle.css">
+        <link rel="stylesheet" href="comicStyle.css">
         <link rel="icon" type="image/png" href="images/tabLogo.jpg">
+
+        
     </head>
 
     <body>
 
         <div class="box">
-        <header>WEBCOMICS</header>
 
-        <slot1></slot1>
-        
-        <a href="myWeirdSeries.html">
-            <slot2><b>THE 'MY WEIRD' SERIES</b></slot2>
-        </a>
+            <header>WEBCOMICS</header>
+
+            <main>
+                <!-- <p>haha</p> -->
+            </main>
+
+            <a href="myWeirdSeries.html">
+                <slot1><b>THE 'MY WEIRD' SERIES*</b></slot1>
+            </a>
 
 
-        <slot3></slot3>
-
+            <!-- <slot1><b>THE 'MY WEIRD' SERIES*</b></slot1> -->
+            
+                
+            <a href="miscWebcomics_1.html">
+                <slot2><b>MISC.*</b></slot2>
+            </a> 
+             
+                 
+            
+            <slot3>
+                <img src="images/PINEAPPLE PIZZA IS GOOD!.jpg" alt="">
+            </slot3>
+            
         </div>
 
     </body>

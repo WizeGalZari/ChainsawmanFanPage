@@ -1,5 +1,5 @@
 html {
-    background-image:url(images/bg2.png);
+    background-image:url(images/bg2_Halloween.png);
     background-size:1000px;
 }
 
@@ -14,7 +14,7 @@ html {
 }
 
 header, main, illusbox, comicbox, musicbox, footer, a {
-    border: rgb(255, 255, 255) 4px solid;
+    border: rgb(232, 202, 182) 4px solid;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 main {
     text-align: center;
     background-color: rgba(41, 41, 41, 0.589);
-    border-color: rgba(238, 238, 238, 0.747);
+    border-color: rgba(255, 255, 255, 0.747);
 
     grid-row: 2 / 3;
     grid-column: 1 / 4;
@@ -46,20 +46,22 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-illusbox {
-    background-color: rgba(41, 41, 41, 0.589);
-    font-size:30px;
 
+
+a {
+    background-color: rgba(29, 29, 29, 0.765);
+    font-size:30px;
     padding-top:200px;
+    text-decoration:none;
+
     text-align: center;
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a {
-    background-color: rgba(41, 41, 41, 0.589);
-    font-size:30px;
-    padding-top:200px;
+illusbox {
+    border:0;
+
     text-decoration:none;
 
     text-align: center;
@@ -79,9 +81,9 @@ comicbox {
 }
 
 musicbox {
-    background-color: rgba(41, 41, 41, 0.589);
-    font-size:30px;
-    padding-top:200px;
+    border:0;
+
+    text-decoration:none;
 
     text-align: center;
     color: whitesmoke;
@@ -93,5 +95,12 @@ musicbox {
     grid-column: 1 / 4;
 
     color: whitesmoke;
+} */
+
+/* @media (max-width: 600px) {
+
+    .box {
+        max-width: 100%;
+    }
 } */
 
